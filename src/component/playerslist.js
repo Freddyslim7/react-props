@@ -1,7 +1,7 @@
 // src/PlayersList.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Player from "./Players"; // Import your Player component here
+import Player from "./players"; // Import your Player component here
 import playersData from "./players"; // Import your player data here
 
 const PlayersList = () => {

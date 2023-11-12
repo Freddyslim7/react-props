@@ -11,12 +11,12 @@ function App() {
     <div className="App">
       <NavScrollExample />
       <div className="text-center pt-2">
-        <h2>Welcome To notRED.com</h2>
-        <h4>Home of passionate football lovers and gamblers</h4>
+        <h2>Play.ng</h2>
+        <h4>Home of football</h4>
         <hr></hr>
       </div>
       <h5 className="text-center pt-2">
-        Here a list of this weeks football players
+        Players Of the Week
       </h5>
       <PlayersList />
       <BasicExample />
