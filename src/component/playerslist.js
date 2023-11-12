@@ -1,7 +1,7 @@
 // src/PlayersList.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Player from "./players"; // Import your Player component here
+import Player from "./player"; // Import your Player component here
 import playersData from "./players"; // Import your player data here
 
 const PlayersList = () => {
@@ -9,9 +9,9 @@ const PlayersList = () => {
     <Container>
       <Row>
         {playersData.map((player, index) => (
-          <Col key={index} md={3} className="m-4">
-            <Player {...player} />
-          </Col>
+          // <Col key={index} md={3} className="m-4"> 
+            <Player key={index} {...player} />
+          // </Col>
         ))}
       </Row>
     </Container>

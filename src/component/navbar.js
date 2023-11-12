@@ -20,7 +20,7 @@ function NavScrollExample() {
           />
         </Navbar.Brand>
         <Navbar.Brand href="#" className="text-red">
-          noRED.com
+          Playng.com
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -29,7 +29,7 @@ function NavScrollExample() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Playes</Nav.Link>
+            <Nav.Link href="#action1">Players</Nav.Link>
             <Nav.Link href="#action2">Teams</Nav.Link>
             <NavDropdown title="Manager" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Fabio capello</NavDropdown.Item>

@@ -19,7 +19,7 @@ function BrandExample() {
 
           <div className="mx-auto">
             <h6 className=" text-white fw-bold ">All Right Researved </h6>
-            <h6 className=" text-white fw-bold">www.noRED.com </h6>
+            <h6 className=" text-white fw-bold">www.Playng.com </h6>
           </div>
         </Container>
       </Navbar>
